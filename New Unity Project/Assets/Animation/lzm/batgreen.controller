@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tex_eqlopot_png.rcc_000205
+  m_Name: batgreen
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
