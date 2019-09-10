@@ -7,10 +7,7 @@ using UnityEngine.UI;
 public class menuManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void Home_Click()
-    {
-        SceneManager.LoadScene("LJA");
-    }
+
     void Start()
     {
         
@@ -21,16 +18,16 @@ public class menuManager : MonoBehaviour
     {
         
     }
-    public void Btn_LCH()
+    public void onClick()
     {
-        SceneManager.LoadScene("LCH");
+        SceneManager.LoadScene("GXF");
     }
-    public void Btn_ZTS()
+    public void ButtonWFR()
     {
-        SceneManager.LoadScene("ZTS");
+        SceneManager.LoadScene("WFR");
     }
-    public void Btn_Lijiaao()
+    public void ButtonLZM()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("LZM");
     }
 }

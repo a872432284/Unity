@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6771801796284853575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6771801796284853592}
+  - component: {fileID: 6771801796284853593}
+  - component: {fileID: 6771801796284853594}
+  - component: {fileID: 6771801796284853595}
+  - component: {fileID: 6771801796284853596}
+  m_Layer: 0
+  m_Name: GameUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6771801796284853592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771801796284853575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 592, y: 297, z: -6.7076483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6771801796284853593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771801796284853575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f123e19f6e0271d488e395a94c3b5331, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPause: {fileID: 0}
+  btnPhoto: {fileID: 0}
+  btnPanel: {fileID: 0}
+  imgCapture: {fileID: 0}
+  Logo: {fileID: 2800000, guid: 4f126e75af5ab054c84f7a619e4a23e5, type: 3}
+--- !u!114 &6771801796284853594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771801796284853575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e75ce291b8a2c4498216c0337a16948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPause: {fileID: 0}
+  btnPhoto: {fileID: 0}
+  btnPanel: {fileID: 0}
+  imgCapture: {fileID: 0}
+  Logo: {fileID: 2800000, guid: 4f126e75af5ab054c84f7a619e4a23e5, type: 3}
+--- !u!114 &6771801796284853595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771801796284853575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e91b3a89e73e974db788097d92034c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pause_push: {fileID: 8300000, guid: a90d5eb3cf1f7e94db2b95eecaab42fa, type: 3}
+  restart_push: {fileID: 0}
+  Home_push: {fileID: 0}
+  Score: {fileID: 0}
+  Restart_Home: {fileID: 0}
+  txt_Pause: {fileID: 0}
+--- !u!81 &6771801796284853596
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771801796284853575}
+  m_Enabled: 1
