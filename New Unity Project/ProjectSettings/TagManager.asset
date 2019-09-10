@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - kaiguan
+  - fanxiangqi
+  - Car
+  - bianfu
+  - bianfujump
+  - panel_menu
+  - slider_sound
+  - panel_buttons
+  - huoqiu
+  - shuihuodi_green
+  - shuihuodi_blue
+  - diamond
+  - tuijin
   layers:
   - Default
   - TransparentFX
@@ -13,8 +26,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - guidao
+  - Player
   - 
   - 
   - 
