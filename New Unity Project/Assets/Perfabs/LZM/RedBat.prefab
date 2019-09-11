@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4671449148482649862}
   - component: {fileID: 740875505}
   - component: {fileID: 8517967097456925655}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Bat
   m_TagString: huoqiu
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4671449148952497991}
   - component: {fileID: 817443650}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: RedBat
   m_TagString: huoqiu
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 4671449149178886184}
   - component: {fileID: 4671449149178886185}
   - component: {fileID: 738484282}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: jump
   m_TagString: bianfujump
   m_Icon: {fileID: 0}
