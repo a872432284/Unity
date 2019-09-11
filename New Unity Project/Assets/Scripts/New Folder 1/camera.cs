@@ -5,30 +5,34 @@ using UnityEngine;
 public class camera : MonoBehaviour
 {
     public Transform Cat;
-    public float distanceX =5f ;
-    private float came_y ;
+    public float distanceX = 5f;
+    private float came_y;
     // Start is called before the first frame update
     void Start()
     {
-        
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
-            if(!cat.Catisdead)
+
+    }
+    private void FixedUpdate()
+    {
+        if (!cat.Catisdead)
+        {
+            if (Cat.transform.position.y >= 0)
             {
-    if(Cat.transform.position.y>=0)
-            {
-               came_y = Cat.transform.position.y+1;
+                came_y = Cat.transform.position.y + 1;
             }
-         else
+            else
             {
                 came_y = 2.0f;
             }
-        transform.position = new Vector3(Cat.position.x + distanceX, came_y, -10);
+            transform.position = new Vector3(Cat.position.x + distanceX, Cat.position.y, -10);
         }
-        
+
     }
 }
